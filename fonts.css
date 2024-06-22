@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+h2{
+    color: rgba(255, 162, 0, 0.961);
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    font-family: "Indie Flower", cursive;
+    }
+
+    body{
+        font-family: Montserrat, sans-serif;
+    }
+
+    h3{
+        font-family:"Indie Flower", cursive;
+        color: crimson;
+        text-align: center;
+        font-weight: 900;
+        font-size: 60px;
+    }
+    h4{
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    a{
+        color: blueviolet;
+        font-size: 20px;
+        font-weight: 900;
+    }
