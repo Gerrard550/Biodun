@@ -1,0 +1,58 @@
+body {
+    background-color: cyan;
+    font-family: "Kode Mono", monospace;
+    font-size: 20px;
+    letter-spacing: 2;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: tomato;
+}
+h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: orchid;
+}
+
+#intro {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.decompose {
+    font-style: italic;
+    background-color: goldenrod;
+    
+}
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: crimson;
+}
+
+h4 {
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+ul {
+    list-style: lower-roman;
+}
+
+
+
+
+
+
+
+

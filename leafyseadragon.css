@@ -6,8 +6,7 @@ body {
 /* Make the h1 center aligned.  Make it not bold (a lighter weight) and give it a font size of 40px */
 h1 {
     text-align: center;
-    font-weight: 100;
-    font-size: 60px;
+    font-weight: 100;    font-size: 60fnpx;
 }
 
 /* Give the paragraphs a font size of 24px */
@@ -31,8 +30,10 @@ text-decoration: underline;
 
 
 /* Select the elements with the class of 'latin' and make them italicized*/
-.Latin{
-    font-style: italic;
+.latin {
+    font-style: unset;
+    color: purple;
+    text-decoration: underline;
 }
 /* Select all h2s and make them uppercase (using css) */
 h2 {
