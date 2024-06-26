@@ -1,0 +1,29 @@
+h1,h2 {
+    text-transform: capitalize;
+    color: coral;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+body {
+    background-color: lightcyan;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+}
+
+#movie {
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+h3,h4 {
+    color: darkviolet;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+
+}
+.song {
+    color: limegreen;
+}

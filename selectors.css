@@ -45,4 +45,8 @@ a[href$=".org"] {
 
 h2.bright {
     color: brown;
-}
+    }
+
+    body {
+        background-color: pink;
+    }
