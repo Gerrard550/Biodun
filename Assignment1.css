@@ -1,0 +1,61 @@
+body {
+  background-color: darkolivegreen;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: indianred;
+}
+
+.area {
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: purple;
+}
+
+#lcda {
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: coral;
+}
+
+.level {
+  font-size: 40px;
+  font-weight: 100;
+  color: turquoise;
+}
+
+.Subjects {
+  font-size: 40px;
+  font-weight: 100;
+  color: yellow;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: darkorange;
+  text-align: center;
+
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.style {
+    background-color: gold;
+}
+
+h3,h4 {
+    font-size: 20px;
+    color: tomato;
+}
+
+
