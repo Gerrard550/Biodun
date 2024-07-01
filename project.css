@@ -51,11 +51,13 @@ a:hover {
     text-decoration: none;
 }
 
-/* .logo {  
-    width: 455px;
-    height: 455px;
+ .logo {  
+    width: 200px;
+    height: 200px;
    border: 20px;
-}*/
+   display: block;
+   border-radius: 50%;
+}
 
 .gallery {
     padding: 16px;

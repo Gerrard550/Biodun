@@ -49,6 +49,10 @@ ul {
     list-style: lower-roman;
 }
 
+.photo {
+    width: 400;
+    height: 400;
+}
 
 
 
