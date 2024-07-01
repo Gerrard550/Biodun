@@ -1,0 +1,122 @@
+body {
+    font-family: 'Cormorant', serif;
+background-color: pink;            ;
+}
+
+h1 {
+    display: inline-block;
+    color: brown;
+    font-weight: 700;
+    margin: 0 32px 0 0;
+
+}
+
+
+#foot {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.links {
+    display: inline-block;
+    text-decoration: none; 
+}
+
+.links li{
+    display: inline-block;
+
+}
+
+.links a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.links ul {
+    padding: 0;
+
+}
+
+.navbar {
+    margin: 32px;
+}
+
+a.active {
+    border-bottom: 2px solid blue;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* .logo {  
+    width: 455px;
+    height: 455px;
+   border: 20px;
+}*/
+
+.gallery {
+    padding: 16px;
+}
+.shoe {
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+ 
+.shoe img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shoe h2 {
+    display: inline-block;
+    margin: 8px 0 16px 0;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+.shoe img:hover {
+    opacity: 0.9;
+}
+
+
+.about {
+    width: 40%;
+    min-width: 600px;
+    margin: 50px 0 50px 100px;
+}
+
+
+.about h3 {
+    font-size: 30px;
+    font-weight: 300;
+    
+   
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.buy {
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+
+
