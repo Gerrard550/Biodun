@@ -1,7 +1,13 @@
 body {
     font-family: 'Cormorant', serif;
-background-color: pink;            ;
+    background-color: yellowgreen;
+    scroll-behavior: smooth;
 }
+
+body:hover {
+    background-color: cyan;
+}
+
 
 h1 {
     display: inline-block;
@@ -41,10 +47,12 @@ h1 {
 
 .navbar {
     margin: 32px;
+    scroll-behavior: smooth;
 }
 
 a.active {
     border-bottom: 2px solid blue;
+    
 }
 a:hover {
     color: red;
@@ -55,7 +63,7 @@ a:hover {
     width: 200px;
     height: 200px;
    border: 20px;
-   display: block;
+   /* display: block; */
    border-radius: 50%;
 }
 
@@ -92,6 +100,7 @@ a:hover {
     width: 40%;
     min-width: 600px;
     margin: 50px 0 50px 100px;
+    
 }
 
 
@@ -99,11 +108,13 @@ a:hover {
     font-size: 30px;
     font-weight: 300;
     
+    
    
 }
 
 .contact {
     margin-top: 100px;
+    
 }
 
 .contact p {
