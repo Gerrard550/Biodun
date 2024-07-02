@@ -9,6 +9,7 @@ body:hover {
 }
 
 
+
 h1 {
     display: inline-block;
     color: brown;
@@ -18,7 +19,7 @@ h1 {
 }
 
 
-#foot {
+.foot {
     color: darkgreen;
     text-decoration: underline;
 }
@@ -47,12 +48,12 @@ h1 {
 
 .navbar {
     margin: 32px;
-    scroll-behavior: smooth;
+    
 }
 
 a.active {
     border-bottom: 2px solid blue;
-    
+    scroll-behavior: smooth;
 }
 a:hover {
     color: red;
@@ -92,7 +93,7 @@ a:hover {
 }
 
 .shoe img:hover {
-    opacity: 0.9;
+    opacity: 50%;
 }
 
 
@@ -120,6 +121,7 @@ a:hover {
 .contact p {
     margin: 0;
     font-size: 20px;
+
 }
 
 .buy {
@@ -130,6 +132,10 @@ a:hover {
 }
 
 
+#about {
+    scroll-behavior: smooth;
+}
 
-
-
+#work {
+    scroll-behavior: smooth;
+}
