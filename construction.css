@@ -1,12 +1,15 @@
 html {
     scroll-behavior: smooth;
-} 
+}
 
 
 
 body {
     background-color: aquamarine;
    
+}
+body:hover {
+    background-color: yellow;
 }
 
 h1 {
@@ -63,6 +66,10 @@ p {
     font-style: italic;
 }
 
+.card img:hover {
+    opacity: 50%;
+}
+
 .card {
     display: inline-block;
     width: 49.75%;
@@ -74,6 +81,7 @@ p {
 .card img {
     height: 500px;
     width: 100%;
+    object-fit: cover;
 }
 
 .card h2{
@@ -94,4 +102,15 @@ h4 {
 
 h4 p {
     font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 500;
+
+    background-color: magenta;
 }
