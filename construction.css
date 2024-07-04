@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+} 
+
+
+
+body {
+    background-color: aquamarine;
+   
+}
+
+h1 {
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 900;
+    color: green;
+    /* text-align: center; */
+    margin: 20px auto;
+    /* border: 2px solid blue; */
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.links {
+    display: inline-block;
+    }
+
+
+.links li {
+    display: inline-block;
+}
+
+.links a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.links a:hover {
+    color: orangered;
+
+}
+
+.design {
+    color: darkgoldenrod;
+    
+}
+
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    width: 30%;
+    padding-left: 20px;
+   }
+
+p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.card {
+    display: inline-block;
+    width: 49.75%;
+    box-sizing: border-box;
+    padding: 16px;
+    
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+}
+
+.card h2{
+     display: inline-block;
+}
+
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: chocolate;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+
+h4 p {
+    font-style: italic;
+}

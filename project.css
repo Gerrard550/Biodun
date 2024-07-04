@@ -1,12 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Cormorant', serif;
     background-color: yellowgreen;
-    scroll-behavior: smooth;
+    
 }
+
+
 
 body:hover {
     background-color: cyan;
 }
+
 
 
 
@@ -53,7 +60,7 @@ h1 {
 
 a.active {
     border-bottom: 2px solid blue;
-    scroll-behavior: smooth;
+    
 }
 a:hover {
     color: red;
@@ -132,10 +139,10 @@ a:hover {
 }
 
 
-#about {
+/* #about {
     scroll-behavior: smooth;
 }
 
 #work {
     scroll-behavior: smooth;
-}
+} */
