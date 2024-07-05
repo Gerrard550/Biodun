@@ -127,3 +127,26 @@ h6 {
     margin: 20px auto;
 
 }
+
+footer {
+    background-color: blueviolet;
+
+}
+
+footer ul {
+    list-style: none;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding: 28px 0;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 12px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
