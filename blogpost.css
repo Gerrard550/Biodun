@@ -1,0 +1,129 @@
+ body { 
+    font-family: "Roboto Mono", monospace;
+    background-color: grey;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+hr {
+    border: 0.5px thin whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: yellowgreen;
+}
+
+
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.content h3 {
+    text-transform: capitalize;
+}
+
+.info {  
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+.info span {
+    color: orangered;
+}
+
+.headline {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin: 40px 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+h3 {
+    font-size: 38px;
+    letter-spacing: 0;
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 30px;
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font-size: 24px;
+    letter-spacing: 0.25px;
+}
+
+h6 {
+    font-size: 20px;
+    letter-spacing: 0.25px;
+
+}
+
+.hero {
+    background-color:cyan;
+    height: 100vh;
+    color:purple;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.hero h1,
+.hero p {
+    width: 75%;
+    max-width: 900px;
+}
+    
+
+.hero hr {
+    width: 50%;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 14px;
+    border-left: 2px solid orangered;
+    padding-left: 16px;
+    margin: 32px 0 32px 32px;
+}
+
+.quote cite {
+    display: block;
+    font-weight: bold;
+    margin: 20px auto;
+
+}

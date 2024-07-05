@@ -5,6 +5,8 @@ body {
     background-color: palevioletred;
 }
 
+
+
 h1{
     font-size: 40px;
     text-decoration: underline;
@@ -60,4 +62,12 @@ input[type="checkbox"]:checked {
 p::first-letter {
     color: sienna;
     font-size: 30px;
+}
+
+
+button {
+    font-size: 20px;
+    border: 2px solid green;
+    background-color: coral;
+ 
 }
