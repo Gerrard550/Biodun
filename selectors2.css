@@ -5,6 +5,10 @@ body {
     background-color: palevioletred;
 }
 
+body:hover {
+    background-color: wheat;
+}
+
 
 
 h1{
