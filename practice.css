@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: "Marck Script", cursive;
+  background-color: green;
+}
+
+h1 {
+  background-color: tomato;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 40px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+h2 {
+  background-color: darkorange;
+  font-size: 25px;
+  margin: 40px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+h3 {
+  background-color: purple;
+  font-size: 25px;
+  margin: 40px;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+h4 {
+  background-color: khaki;
+  font-size: 20px;
+  margin: 40px;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+footer {
+  font-size: 30px;
+
+  background-color: dodgerblue;
+}
+
+footer ul {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  padding: 28px 0;
+}
+
+footer ul li {
+  display: inline;
+  padding: 0 12px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+
+}
