@@ -8,6 +8,14 @@ body {
   background-color: green;
 }
 
+.image {
+  width: 45%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+
 h1 {
   background-color: tomato;
   font-size: 30px;
