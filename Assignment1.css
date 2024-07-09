@@ -47,15 +47,31 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-style: italic;
+  
 }
 
 .style {
     background-color: gold;
 }
 
-h3,h4 {
+h3{
     font-size: 20px;
     color: tomato;
+  font-weight: bold;
+
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: cyan;
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+  float: right;
 }
 
 
