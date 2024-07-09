@@ -53,6 +53,18 @@ ul {
     list-style: lower-roman;
 }
 
+img {
+    width: 300px ;
+    float: left;
+    padding: 12px;
+}
+
+.chain img {
+    width: 300px;
+    float: right;
+    
+}
+
 .photo {
     width: 400;
     height: 400;
