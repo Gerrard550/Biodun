@@ -6,7 +6,7 @@ html {
 
 body {
     background-color: aquamarine;
-   
+   /* background-image: url(image/site3.jpeg); */
 }
 body:hover {
     background-color: yellow;
