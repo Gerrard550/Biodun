@@ -5,12 +5,14 @@ html {
 body {
     background-color:cyan;
     font-family: "Spline Sans Mono", monospace;
+    
+    
     }
 
 h1 {
     font-size: 60px;
     text-transform: capitalize;
-   color: gray;
+   color: tomato;
    margin: 0;
    padding: 0;
     display: inline-block;
@@ -18,10 +20,12 @@ h1 {
     width: 100vw;
     display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
+  align-content: flex-end;
+  justify-content: flex-end;
   background-image: url(image/factors.jpeg);
   background-position: center;
+ 
+  
 
 }
 

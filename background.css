@@ -1,17 +1,101 @@
+body {
+    background-color: orange;
+}
+
+
 .box {
     border: 2px solid blue;
     height: 600px;
     width: 700px;
     background-image: url(image/justice.jpeg);
     background-position: bottom left;
+    padding: 0 20px;
+   /* float: left; */
+   
+}
+
+h2{
+    margin-top: 40px;
 }
 
 .box2 {
-    width: 300px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     border: 2px solid red;
     background-image: url(image/toyo3.jpeg);
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center; 
+    float: left;
+    margin-right: 20px;
 }
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: linear-gradient(coral, darkgrey, cyan );
+    float: left;
+    margin-right: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.box4 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(yellow, tomato,  darkgreen,  maroon  );
+    float: left;
+    margin-right: 20px;
+    }
+
+
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 4px;
+    float: left;
+    margin-right: 20px;
+    background-image: conic-gradient(khaki 20%, coral, tomato 30%, orangered,purple 20%, green );
+    border-radius: 50%;
+
+}
+
+
+
+h5 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box6 {
+    width: 600px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 20px;
+    background-image: repeating-linear-gradient(
+    -45deg,
+    transparent 0 20px,
+    black 20px 40px
+  );
+
+}
+
+
+
+
