@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    background-image: conic-gradient(green, white, green, white);
+    background-size: contain;
+    background-position: center;
+    
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    border: 2px solid green;
+    color:green;
+    text-align: center;
+    background-color: coral;
+    padding: 0;
+    margin-bottom: 20px;
+
+}
+#life {
+    color: white;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    
+}
+
+
+ p {
+    font-size: 16px;
+    margin: 20px;
+    display: inline-block;
+
+ }
+  
+
+
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid green;
+    color: green;
+    background-color: cyan;
+     margin-top: 40px;
+}
+
+#live {
+    color: white;
+}
+
+.image2 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid green;
+    color: green;
+    background-color: darkgoldenrod;
+    /* margin-top: 40px; */
+}
+
+#ethnicity {
+    color: white;
+}
+
+.image3 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+     box-sizing: border-box;
+    padding: 20px; 
+    
+    
+}
+
+footer {
+    background-color: darkgray;
+}
+
+footer ul {
+    list-style: none;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding: 28px 0;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 40px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+color: crimson;
+}
