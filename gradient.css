@@ -8,7 +8,7 @@ body {
     background-image: conic-gradient(green, white, green, white);
     background-size: contain;
     background-position: center;
-    
+
 }
 
 h1 {
@@ -30,6 +30,7 @@ h1 {
     width: 200px;
     height: 200px;
     display: inline-block;
+    
     
 }
 
@@ -86,6 +87,7 @@ h3 {
     display: inline-block;
      box-sizing: border-box;
     padding: 20px; 
+    filter: blur(5px);
     
     
 }
