@@ -15,7 +15,7 @@ h1 {
     font-size: 40px;
     text-transform: capitalize;
     border: 2px solid green;
-    color:green;
+    color: green;
     text-align: center;
     background-color: coral;
     padding: 0;
@@ -117,3 +117,4 @@ footer ul li a {
 a:hover {
 color: crimson;
 }
+
