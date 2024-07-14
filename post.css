@@ -1,0 +1,47 @@
+body {
+    font-family: "Vast Shadow";
+    background-color: aquamarine;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: gold;
+    position: relative;
+    border-radius: 50%;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: firebrick;
+    position: absolute;
+    right: -100px;
+    bottom: 200px;
+    border-radius: 50%;
+}
+
+.bin {
+    width: 200px;
+    height: 200px;
+    background-color: plum;
+    position: absolute;
+    left: -100px;
+    bottom: 200px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+   margin-top: 80px;
+   padding: 0;
+
+   
+}
