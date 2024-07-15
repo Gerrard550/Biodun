@@ -13,7 +13,6 @@ h1 {
   margin-right: 200px;
   padding: 0 40px;
   width: 40px;
-
 }
 
 #travel {
@@ -38,14 +37,7 @@ p {
   display: inline-block;
   padding: 0 100px;
   margin-left: 190px;
-}
-
-p a {
-  text-decoration: none;
-}
-
-p a:hover {
-  color: red;
+  border-radius: 40%;
 }
 
 .head {
@@ -53,67 +45,82 @@ p a:hover {
 }
 
 .card {
-    width: 30%;
-    display: inline-block;
-
-
+  width: 30%;
+  display: inline-block;
 }
 
 .card h2 {
-    display: inline-block;
-    margin: 0;
-    padding-left: 100px;
-    /* height: 100vh; */
-
+  display: inline-block;
+  margin: 0;
+  padding-left: 100px;
+  /* height: 100vh; */
 }
 
-
-
-
 .trip ul {
-    display: inline-block;
+  display: inline-block;
 }
 
 .trip ul li {
-    display: inline-block;
-    font-size: 15px;
-    font-weight: bold;
-    color: tomato;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  color: tomato;
 }
 
 .trip ul li img {
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
-    display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  display: inline-block;
 }
 
 ul {
-    font-size: 20px;
-    list-style: none;
-    margin-top: 0;
-    box-sizing: border-box;
-    color: yellow;
+  font-size: 20px;
+  list-style: none;
+  margin-top: 0;
+  box-sizing: border-box;
+  color: yellow;
+  position: relative;
+  right: 0;
+  justify-content: space-between;
 }
 
 h3 {
-    margin-left: 20px;
-    display: inline-block;
-    color: white;
-    
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+  display: flex;
+  color: white;
+  display: inline-block;
+  margin-top: 0;
 }
-
 
 h4 {
-    margin-left: 20px;
-    display: inline-block;
-    color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  display: inline-block;
+  color: white;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.grid-test {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+h5 {
+font-size: 20px;
+font-weight: bold;
+color: white;
+margin: 0 40px;
 
 }
 
-
-
-
-
-
-
+.flyer img {
+  width: 150px;
+  height: 150px;
+  margin: 0 32px;
+  border-radius: 40%;
+}
