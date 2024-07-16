@@ -7,6 +7,11 @@ body {
   justify-content: center;
 }
 
+body:hover {
+  background-color: burlywood;
+  transition: background-color 5s;
+}
+
 .box1 {
   background-color: green;
   height: 100px;
@@ -14,7 +19,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  transition: background-color 5s;
 }
+
+.box1:hover {
+  background-color: white;
+}
+
+
 
 .box2 {
   background-color: blue;
@@ -23,6 +35,11 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  transition: background-color 5s;
+}
+
+.box2:hover {
+  background-color: yellow;
 }
 
 .box3 {
@@ -32,6 +49,11 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+  transition: background-color 5s;
+}
+
+.box3:hover {
+background-color: darkgray;  
 }
 
 .box4 {
@@ -41,4 +63,9 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+  transition: background-color 5s;
+}
+
+.box4:hover {
+  background-color: springgreen;
 }
