@@ -16,6 +16,11 @@ body {
     border-radius: 50%;
 }
 
+.container:hover {
+    background-color: red;
+    transition: background-color 5s;
+}
+
 .box {
     width: 200px;
     height: 200px;
@@ -24,6 +29,11 @@ body {
     right: -100px;
     bottom: 200px;
     border-radius: 50%;
+    transition: background-color 5s;
+}
+
+.box:hover {
+    background-color: white;
 }
 
 .bin {
@@ -34,6 +44,11 @@ body {
     left: -100px;
     bottom: 200px;
     border-radius: 50%;
+    transition: background-color 5s;
+}
+
+.bin:hover {
+    background-color: springgreen;
 }
 
 p {
