@@ -14,6 +14,7 @@ body {
     background-color: gold;
     position: relative;
     border-radius: 50%;
+    transform: rotate(180deg);
 }
 
 .container:hover {
@@ -30,6 +31,7 @@ body {
     bottom: 200px;
     border-radius: 50%;
     transition: background-color 5s;
+    transform: rotate(45deg);
 }
 
 .box:hover {
@@ -45,6 +47,7 @@ body {
     bottom: 200px;
     border-radius: 50%;
     transition: background-color 5s;
+    transform: rotate(125deg);
 }
 
 .bin:hover {
