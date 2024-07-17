@@ -14,11 +14,12 @@ body {
 p {
   font-size: 20px;
   padding: 0 20px;
+  transform: rotate(90deg);
 }
 
 .btn {
   color: white;
-  background-color: darkcyan;
+  background-color: springgreen;
   transition: background-color 5s;
   text-decoration: none;
   border: 4px solid white;
