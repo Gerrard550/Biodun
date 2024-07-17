@@ -1,0 +1,56 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.photo img {
+    width: 25%;
+    height: 50vh;
+    transition: transform 0.2s;
+    
+
+}
+
+.photo img:hover {
+    opacity: 50%;
+    width: 40%;
+   
+    
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+    
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: springgreen;
+    background-color: aliceblue;
+
+}
+
+button:hover {
+    background-color: brown;
+    
+
+}
+
