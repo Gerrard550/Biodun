@@ -1,0 +1,32 @@
+body  {
+    background: radial-gradient(orange,tomato);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: white;
+    color: #401aff;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    border-radius: 0.3rem;
+    padding: 2rem 7rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 1rem;
+    border: none;
+    cursor: help;
+    transition: transform 3s ease-in;
+}
+
+.btn1:hover {
+    background-color: cyan;
+    transform: translateY(-400px);
+}
+
+.btn2:hover {
+    background-color: springgreen;
+    transform: translateY(-400px) ;
+}
