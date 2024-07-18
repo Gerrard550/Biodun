@@ -7,12 +7,13 @@ h1 {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 h1 ~ p {
     padding-left: 20px;
     font-size: 40px;
-    text-transform: capitalize;
+    text-align: center;
 }
 
 .container {
@@ -24,6 +25,7 @@ h1 ~ p {
 
 
 .card1 {
+    color: white;
     background-color: #1dcf9f;
     border-radius: 5px;
     padding: 10px;
@@ -36,11 +38,12 @@ h1 ~ p {
 }
 
 .card1:hover {
-    background-color: white;
+    background-color: green;
     transform: translateY(400px);
 }
 
 .card2 {
+    color: white;
     background-color:blueviolet ;
     border-radius: 5px;
     width: 400px;
@@ -54,11 +57,12 @@ h1 ~ p {
 }
 
 .card2:hover {
-    background-color: white;
+    background-color: magenta;
     transform: translateY(400px);
 }
 
 .card3 {
+    color: white;
     background-color: #0357EE;
     border-radius: 5px;
     width: 400px;
@@ -70,7 +74,7 @@ h1 ~ p {
 }
 
 .card3:hover {
-    background-color: white;
+    background-color: teal;
     transform: translateY(400px);
 }
 
