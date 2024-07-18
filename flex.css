@@ -9,15 +9,18 @@ h1 {
     width: 1000px;
     height: 800px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 span {
     color: white;
     background-color: #26c6da;
-    font-size: 2rem;
-    width: 400px;
+    font-size: 1.5rem;
+    width: 200px;
     border: 1px solid black;
     text-align: center;
     border-radius: 20px;
