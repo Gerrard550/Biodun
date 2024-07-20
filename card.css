@@ -19,7 +19,6 @@ h1 ~ p {
 .container {
     display: flex;
     margin: 10px 10px;
-    /* justify-content: space-between; */
     
 }
 
