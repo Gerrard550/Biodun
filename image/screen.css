@@ -1,10 +1,14 @@
 body {
-    background-color: white;
+    background-color: #d2f7e7;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     
+}
+
+h1 {
+    margin: 10px;
 }
 
 .name {
@@ -20,3 +24,60 @@ body {
 }
 
 
+.general {
+    margin-left: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.enquiry {
+   padding: 0 20px;
+}
+
+.request {
+    padding: 0 20px;
+ 
+}.message {
+    margin-top: 20px;
+    display: block;
+
+}
+
+.area {
+    margin-top: 10px;
+    display: block;
+    position: fixed;
+   
+}
+
+.area::-webkit-resizer {
+    display: none;
+}
+
+.check {
+    margin-top: 60px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px 20px;
+    background-color: #28705c
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.form {
+    background-color: white;
+    height: 70vh;
+    padding: 20px;
+    border-radius: 4px;
+    
+}

@@ -7,24 +7,55 @@
     <link rel="stylesheet" href="screen.css" />
   </head>
   <body>
-    <h1>Contact Us</h1>
-    <form action="">
-      <div class="name">
-        <label for="firstname">First Name *</label><br />
-
-        <input type="text" name="firstname" id="firstname" />
-      </div>
-      <div class="name">
-        <label for="lastname">Last Name *</label><br />
+    <div class="form">
+      <h1>Contact Us</h1>
+      <form action="/#link">
         <div class="name">
-          <input type="text" name="lastname" id="lastname" />
-        </div>
-      </div>
+          <label for="firstname">First Name *</label><br />
 
-      <div class="address">
-        <label for="email">Email Address *</label><br>
-        <input class="text" type="text" name="email-address" id="email" />
-      </div>
-    </form>
+          <input type="text" name="firstname" id="firstname" />
+        </div>
+        <div class="name">
+          <label for="lastname">Last Name *</label><br />
+          <div class="name">
+            <input type="text" name="lastname" id="lastname" />
+          </div>
+        </div>
+
+        <div class="address">
+          <label for="email">Email Address *</label><br />
+          <input class="text" type="text" name="email-address" id="email" />
+        </div>
+
+        <div class="general">
+          <button class="enquiry">
+            <input type="radio" name="enquiry" id="enquiry" />
+            <label for="enquiry">General Enquiry</label>
+          </button>
+
+          <button class="request">
+            <input type="radio" name="request" id="request" />
+            <label for="request">Support Request</label>
+          </button>
+        </div>
+
+        <div class="message">
+          <label for="msg">Message *</label><br />
+
+          <textarea class="area" name="message" id="msg" rows="3" cols="40">
+          </textarea>
+        </div>
+        <br />
+
+        <div class="check">
+          <input type="checkbox" name="check" id="check" />
+          <label for="check">I consent to being contacted by the team *</label>
+        </div>
+
+        <div class="footer">
+          <footer><a href="#link">Submit</a></footer>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
