@@ -47,11 +47,16 @@ h1 {
 
 }
 
+textarea {
+    resize: none;
+    width: 340px;
+    height: 70px;
+}
+
 .area {
     margin-top: 10px;
     display: block;
-    position: fixed;
-   
+    border: 1px solid grey;
 }
 
 .area::-webkit-resizer {
@@ -59,14 +64,16 @@ h1 {
 }
 
 .check {
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .footer {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
     padding: 5px 20px;
-    background-color: #28705c
+    background-color: #28705c;
+    display: block;
+    
 }
 
 a {
@@ -79,5 +86,6 @@ a {
     height: 70vh;
     padding: 20px;
     border-radius: 4px;
+    margin-top: 50px;
     
 }
