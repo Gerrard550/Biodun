@@ -56,9 +56,10 @@ button {
     background-color: white;
     width: 200px;
     border-radius: 2%; 
-    height: 350px;
+    height: 348px;
     padding: 20px;
     margin: 0;
+    border: 2px solid white;
 }
 
 
