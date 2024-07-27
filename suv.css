@@ -1,0 +1,113 @@
+body {
+    background-color: springgreen;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+
+    font-size: 70px;
+    color: slateblue;
+   position: absolute;
+   top: -50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.container {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    transition: transform 0.2s;
+    position: relative;
+    border-radius: 20%;
+    
+}
+
+.container:hover{
+    transform: scale(1.2);
+}
+.box1 {
+    background-color: #f09218;
+    color: white;
+    width: 210px;
+    height: 400px;
+    text-align: center;
+}
+
+.box2 {
+    background-color: #2a727a;
+    color: white;
+    width: 210px;
+    height: 400px;
+    text-align: center;
+}
+
+
+.box3 {
+    background-color: #15403b;
+    color: white;
+    width: 210px;
+    height: 400px ;
+    text-align: center;
+}
+
+img {
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+    padding-bottom: 30px;
+    
+}
+
+
+
+p {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.learn1 {
+    margin-top: 30px;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+
+.learn2 {
+    margin-top: 30px;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+.learn3 {
+    margin-top: 30px;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+.learn1 a{
+    text-decoration: none;
+    color: #f09218;
+    font-weight: 500;
+}
+
+.learn2 a{
+    text-decoration: none;
+    color: #2a727a;
+    font-weight: 500;
+}
+
+.learn3 a{
+    text-decoration: none;
+    color: #15403b;
+    font-weight: 500;
+}
