@@ -20,6 +20,10 @@ h1 {
     
 }
 
+.query {
+    margin-top: 20px;
+}
+
 .text {
     padding: 0 90px;
 }
@@ -27,7 +31,7 @@ h1 {
 
 .general {
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
     
@@ -65,11 +69,12 @@ textarea {
 }
 
 .check {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .footer {
-    margin-top: 15px;
+    margin-top: 10px;
+
     text-align: center;
     padding: 5px 20px;
     background-color: #28705c;
