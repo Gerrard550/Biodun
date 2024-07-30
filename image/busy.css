@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/image/turk.jpeg);
+    background-size: cover;
+  
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding: 0 10px;
+
+}
+.heading h1 {
+    font-family: 'Kode Mono', monospace;
+    font-size: 6rem;
+    color: rgb(125, 84, 156);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 60px;
+ 
+
+}
+
+
+.name {
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    color: rgb(243, 235, 250);
+}
+
+
+
