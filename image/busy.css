@@ -24,7 +24,7 @@ body {
 .heading h1 {
     font-family: 'Kode Mono', monospace;
     font-size: 6rem;
-    color: rgb(125, 84, 156);
+    color: purple;
     text-align: center;
     text-transform: uppercase;
     margin: 20px 60px;
@@ -37,7 +37,7 @@ body {
     font-size: 3rem;
     font-style: italic;
     text-align: center;
-    color: rgb(243, 235, 250);
+    color: rgb(211, 190, 230);
 }
 
 
