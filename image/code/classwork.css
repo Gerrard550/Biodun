@@ -1,0 +1,13 @@
+body{
+    background-color: springgreen;
+}
+
+
+.work {
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+    font-size: 60px;
+    font-weight: bold;
+    color: brown;
+}
