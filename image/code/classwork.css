@@ -1,13 +1,74 @@
-body{
-    background-color: springgreen;
+body {
+    background-color: khaki;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.container {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.work {
-    display: grid;
-    place-items: center;
-    height: 100dvh;
-    font-size: 60px;
+   
+   animation-name: spin;
+   animation-duration: 10s;
+   /* animation-direction: alternate-reverse; */
+   
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: cyan ;
+    position: relative;
+    border-radius: 50%;
+
+    animation-name: spin;
+    animation-duration: 5s;
+   
+
+    
+}
+
+   
+    
+
+.container .box p {
+    font-size: 20px;
     font-weight: bold;
-    color: brown;
+    color: green;
+   /* display: grid;
+   place-items: center;
+   height: 100%; */
+   
+   position: absolute;
+   /* top: 90px;
+   left: 30px;  */
+   transform: translate(30px, 90px);
+   
+}
+   
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) ;  
+    
+    background-color: chartreuse;}
+
+    50% {
+        transform: rotate(180deg);
+        background-color: firebrick;
+    }   
+    
+    100% {
+        transform: rotate(360deg);
+        background-color: cornflowerblue;
+    }
 }

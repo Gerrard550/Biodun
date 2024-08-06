@@ -38,6 +38,7 @@ body {
 .navbar .right img {
   width: 24px;
   height: 24px;
+
 }
 
 .navbar .hamburger {
@@ -49,7 +50,9 @@ body {
 
 }
 
-.navbar .bar {
+ .bar1, 
+ .bar2, 
+ .bar3 {
   background-color: black;
   height: 4px;
   width: 36px;
@@ -116,6 +119,7 @@ body {
   width: 100%;
   object-fit: cover;
   height: 100%;
+  border-radius: 80px;
 }
 
 .project .overlay {
@@ -168,8 +172,12 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .project-grid {
+        margin-top: 100px;
+    }
     .navbar {
         padding: 16px 24px;
+        box-sizing: border-box;
         position: fixed;
         top: 0;
         left: 0;
@@ -209,4 +217,16 @@ body {
   .project .overlay {
     font-size: 24px;
   }
+}
+
+.animateBar1 {
+    animation: flipBar1 1s infinite;
+}
+
+.animateBar2 {
+    animation: fadeBar2 1s infinite;
+}
+
+.animateBar3 {
+    animation: flipBar3 1s infinite;
 }
