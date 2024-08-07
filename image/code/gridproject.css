@@ -14,9 +14,29 @@ body {
   padding: 64px 0;
 }
 
+
+
 .navbar .left {
   font-size: 32px;
   font-weight: bold;
+  position: relative;
+}
+
+.navbar .artist {
+  margin: 10px 15px;
+  padding: 10px 15x;
+  border: 2px solid whitesmoke;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 12px;
+  position: absolute;
+  transform: translate(250px, -50px);
+  box-shadow: 50px;
+  display: grid;
+  
+
+  
 }
 
 .navbar .right {
@@ -73,7 +93,7 @@ body {
   right: -160px;
   top: 0;
   padding: 16px;
-  transition: transform 0.5s;
+  transition: transform 1s;
 
 }
 
@@ -270,18 +290,18 @@ body {
 
 
 .animateBar1 {
-  animation: flipBar1 1s;
+  animation: flipBar1 0.5s;
   animation-fill-mode: forwards;
 }
 
 .animateBar2 {
-  animation: fadeBar2 1s;
+  animation: fadeBar2 0.5s;
   animation-fill-mode: forwards;
 
 }
 
 .animateBar3 {
-  animation: flipBar3 1s;
+  animation: flipBar3 0.5s;
   animation-fill-mode: forwards;
 
 }
