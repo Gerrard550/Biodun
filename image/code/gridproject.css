@@ -38,27 +38,66 @@ body {
 .navbar .right img {
   width: 24px;
   height: 24px;
-
+  border-radius: 50%;
 }
 
 .navbar .hamburger {
- 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  display: none;
+  
 }
 
- .bar1, 
- .bar2, 
- .bar3 {
+.navbar .hamburger:hover {
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
   background-color: black;
   height: 4px;
   width: 36px;
   margin: 3px;
   border-radius: 10px;
 }
+
+.mobileNav {
+  width: 80px;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  right: -160px;
+  top: 0;
+  padding: 16px;
+  transition: transform 0.5s;
+
+}
+
+.mobileNav img {
+  width: 24px;
+  height: 24px;
+  
+}
+
+.openDrawer {
+  transform: translateX(-160px);
+  transition: 1s;
+}
+
+.mobileNav a {
+  text-decoration: none;
+  color: black;
+  margin: 16px 0;
+}
+
+.mobileNav a:hover {
+  text-decoration: underline;
+}
+
 
 .project-grid {
   display: grid;
@@ -172,29 +211,27 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .project-grid {
-        margin-top: 100px;
-    }
-    .navbar {
-        padding: 16px 24px;
-        box-sizing: border-box;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 3;
-        background-color: white;
-        width: 100%;
-    }
-    
-    .navbar .right {
-        display: none;
-    }
+  .project-grid {
+    margin-top: 100px;
+  }
+  .navbar {
+    padding: 16px 24px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: white;
+    width: 100%;
+  }
 
-    .navbar .hamburger {
- 
-        display: block;
-      }
+  .navbar .right {
+    display: none;
+  }
 
+  .navbar .hamburger {
+    display: block;
+  }
 
   .footer {
     font-size: 14px;
@@ -219,14 +256,71 @@ body {
   }
 }
 
+/* .hamburger .bar:nth-child(1) {
+  animation: flipBar1 1s infinite;
+}
+
+.hamburger .bar:nth-child(2) {
+  animation: fadeBar2 1s infinite;
+}
+
+.hamburger .bar:nth-child(3) {
+  animation: flipBar3 1s infinite;
+} */
+
+
 .animateBar1 {
-    animation: flipBar1 1s infinite;
+  animation: flipBar1 1s;
+  animation-fill-mode: forwards;
 }
 
 .animateBar2 {
-    animation: fadeBar2 1s infinite;
+  animation: fadeBar2 1s;
+  animation-fill-mode: forwards;
+
 }
 
 .animateBar3 {
-    animation: flipBar3 1s infinite;
+  animation: flipBar3 1s;
+  animation-fill-mode: forwards;
+
 }
+
+
+.purple {
+background-color: purple;
+}
+
+@keyframes flipBar1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(45deg) translate(4px, 6px);
+  }
+}
+
+@keyframes fadeBar2 {
+  0% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+}
+
+@keyframes flipBar3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-45deg) translate(4px, -6px);
+  }
+}
+
+
